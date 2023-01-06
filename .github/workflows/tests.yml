@@ -21,3 +21,12 @@ jobs:
           yarn 
           yarn compile
           yarn test
+  ci-success:
+    name: ci
+    if: ${{ success() }}
+    needs:
+      - Hardhat-tests
+    runs-on: ubuntu-latest
+    steps:
+      - name: CI succeeded
+        run: exit 0
