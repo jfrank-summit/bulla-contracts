@@ -22,7 +22,7 @@ describe("Bulla Banker", function () {
     let bullaClaimERC721: BullaClaimERC721;
 
     let claimAmount = ethers.utils.parseEther("100.0");
-    let feeBasisPoint = 1000;
+    let feeBasisPoint = 10000;
     this.beforeEach(async function () {
         [collector, owner, notOwner, creditor, debtor] = await ethers.getSigners();
         erc20Contract = (await deployContract(debtor, ERC20Mock)) as ERC20;
