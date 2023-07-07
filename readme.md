@@ -6,7 +6,7 @@ The Bulla Protocol is a simple protocol for minting credit relationships between
 Each claim token contains crucial metadata about the transaction and handles ERC20 payment.
 
 Not only is BullaClaim a necessary data-wrapper for ERC20 transactions, but a myriad of uses for Bulla arise after taking a closer look:
-1. On-chain trial balances + PNL
+1. On-chain trial balances + PnL
 2. Out-of-the-box triple entry accounting
 3. Auditable and descriptive transaction histories
 4. Factorization
